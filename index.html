@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ejercicio para practicar con CSS Grid, un proyecto de la escuela de Leonidas Esteban">
+  <title>Grid Gallery</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preload" href="./css/button.css">
+  <link rel="preload" href="./css/grid.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="grid-container">
+      <div class="grid-item medium">
+        <img src="./assets/images/berlin.png" width="418px" height="418px" loading="lazy" alt="Fotografía de Berlín">
+        <div class="text-container">
+          <span>Berlín</span>
+          <span>Alemania</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Berl%C3%ADn,+Alemania/@52.5065133,13.1445563,10z/data=!3m1!4b1!4m5!3m4!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item small">
+        <img src="./assets/images/tirana.png" width="418px" height="350px" loading="lazy" alt="Fotografía de Tirana">
+        <div class="text-container">
+          <span>Tirana</span>
+          <span>Albania</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Tirana,+Albania/@41.3309769,19.7828038,13z/data=!3m1!4b1!4m5!3m4!1s0x1350310470fac5db:0x40092af10653720!8m2!3d41.3275459!4d19.8186982?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item medium">
+        <img src="./assets/images/buenos-aires.png" width="418px" height="418px" loading="lazy" alt="Fotografía de Buenos Aires">
+        <div class="text-container">
+          <span>Buenos Aires</span>
+          <span>Argentina</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Provincia+de+Buenos+Aires,+Argentina/@-37.0651314,-64.51591,6z/data=!3m1!4b1!4m5!3m4!1s0x95edbcb7595281d9:0x4ad309fcdcf0a144!8m2!3d-37.2017285!4d-59.8410697?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item small">
+        <img src="./assets/images/santiago.png" width="418px" height="350px" loading="lazy" alt="Fotografía de Santiago">
+        <div class="text-container">
+          <span>Santiago</span>
+          <span>Chile</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Santiago,+Regi%C3%B3n+Metropolitana,+Chile/@-33.4727092,-70.7699156,11z/data=!3m1!4b1!4m5!3m4!1s0x9662c5410425af2f:0x8475d53c400f0931!8m2!3d-33.4488897!4d-70.6692655?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item large">
+        <img src="./assets/images/pekin.png" width="418px"  height="500px" loading="lazy" alt="Fotografía de Pekín">
+        <div class="text-container">
+          <span>Pekín</span>
+          <span>China</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Pek%C3%ADn,+China/@39.9385466,116.1172762,10z/data=!3m1!4b1!4m5!3m4!1s0x35f05296e7142cb9:0xb9625620af0fa98a!8m2!3d39.9041999!4d116.4073963?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item small">
+        <img src="./assets/images/bogota.png" width="418px" height="350px" loading="lazy" alt="Fotografía de Bogotá">
+        <div class="text-container">
+          <span>Bogotá</span>
+          <span>Colombia</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Bogot%C3%A1,+Colombia/@4.6482837,-74.2478931,11z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item medium">
+        <img src="./assets/images/seul.png" width="418px" height="418px" loading="lazy" alt="Fotografía de Seúl">
+        <div class="text-container">
+          <span>Seúl</span>
+          <span>Corea del Sur</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Se%C3%BAl,+Corea+del+Sur/@37.5637733,126.8340025,11z/data=!3m1!4b1!4m5!3m4!1s0x357ca2012d5c39cf:0x7e11eca1405bf29b!8m2!3d37.566535!4d126.9779692?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item small">
+        <img src="./assets/images/la-habana.png" width="418px" height="350px" loading="lazy" alt="Fotografía de La Habana">
+        <div class="text-container">
+          <span>La Habana</span>
+          <span>Cuba</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/La+Habana,+Cuba/@23.050625,-82.4730873,11z/data=!3m1!4b1!4m5!3m4!1s0x88cd774cbdf600e1:0x4e294d7e1a770d60!8m2!3d23.1135925!4d-82.3665956?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item large">
+        <img src="./assets/images/quito.png" width="418px" height="500px" loading="lazy" alt="Fotografía de Quito">
+        <div class="text-container">
+          <span>Quito</span>
+          <span>Ecuador</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Quito,+Ecuador/@-0.1865938,-78.5706243,11z/data=!3m1!4b1!4m5!3m4!1s0x91d59a4002427c9f:0x44b991e158ef5572!8m2!3d-0.1806532!4d-78.4678382?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item large">
+        <img src="./assets/images/san-salvador.png" width="418px" height="500px" loading="lazy" alt="Fotografía de San Salvador">
+        <div class="text-container">
+          <span>San Salvador</span>
+          <span>El Salvador</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/San+Salvador,+El+Salvador/@13.6914757,-89.2502713,13z/data=!3m1!4b1!4m5!3m4!1s0x8f633067b411775d:0x1f75978893fb5c96!8m2!3d13.6929403!4d-89.2181911?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item medium">
+        <img src="./assets/images/madrid.png" width="418px" height="418px" loading="lazy" alt="Fotografía de Madrid">
+        <div class="text-container">
+          <span>Madrid</span>
+          <span>España</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Madrid/@40.4378698,-3.8196201,11z/data=!3m1!4b1!4m5!3m4!1s0xd422997800a3c81:0xc436dec1618c2269!8m2!3d40.4167754!4d-3.7037902?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item small">
+        <img src="./assets/images/mexico.png" width="418px" height="350px" loading="lazy" alt="Fotografía de México">
+        <div class="text-container">
+          <span>México</span>
+          <span>México</span>
+        </div>
+        <div class="button-container">
+          <a href="https://www.google.es/maps/place/Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.39068,-99.2836981,11z/data=!3m1!4b1!4m5!3m4!1s0x85ce0026db097507:0x54061076265ee841!8m2!3d19.4326077!4d-99.133208?hl=es" target="_blank" rel="noopener">
+            <button class="button">
+              <i class="icon map" aria-label="Map Icon"></i>
+              Ver en Google Maps
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
