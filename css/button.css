@@ -55,6 +55,7 @@
   .button-container {
     background: #00A2FF;
     place-content: center;
+    block-size: 100%;
   }
 
 }
