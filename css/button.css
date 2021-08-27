@@ -1,7 +1,7 @@
 .button-container {
   position: absolute;
   display: grid;
-  place-items: center;
+  place-content: center;
   z-index: 1;
   top: 0;
   right: 0;
@@ -54,6 +54,7 @@
 
   .button-container {
     background: #00A2FF;
+    place-content: center;
   }
 
 }
